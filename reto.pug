@@ -1,0 +1,12 @@
+extends componentes/plantilla.pug
+block contenido
+	main.reto-main
+		aside
+			h2 Menu
+			ul
+			each enlace in enlaces
+				li #{enlace}
+		section
+			h2 Titulo Principal
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			a.boton(href= '#') Leer mas
