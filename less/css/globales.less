@@ -4,16 +4,29 @@
 @color-variacion: #012179;
 @fuente1: 'Lato', sans-serif;
 @fuente2: 'Oswald', sans-serif;
+@fuente-base: 18px;
+.sombra-caja {
+	box-shadow: 0 5px 15px 0 fade(@color-primario, 50%);
+}
+.oswald {
+	font-family: @fuente2;
+	text-transform: uppercase;
+}
+.fuente(@size){
+	font-size: @size;
+	line-height: calc(@size + 20%);
+}
 *{
 	box-sizing: border-box;
 }
 body {
 	margin: 0;
 	font-family: @fuente1;
+	color: @color-primario;
+	.fuente(@fuente-base);
 }
 
 h1,h2,h3 {
 	margin: 0;
-	font-family: @fuente2;
-	text-transform: uppercase;
+	.oswald;
 }
