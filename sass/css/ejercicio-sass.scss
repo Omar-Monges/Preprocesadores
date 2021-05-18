@@ -54,6 +54,16 @@ main {
 		font-family: $fuente2;
 		color: $color-claro;
 	}
+	&__minibio {
+		margin: 0 auto;
+		padding-top: 20px;
+		h2 {
+			@extend .perfil__nombre;
+		}
+		h3 {
+			@extend .perfil__titulo;
+		}
+	}
 }
 .estadistica--perfil {
 	display: flex;
@@ -63,6 +73,7 @@ main {
 	margin: 0 auto;
 	justify-content: space-between;
 	border-radius: 20px;
+	color: $color-primario;
 	background-color: $color-claro;
 	h3 {
 		font-weight: 600;
@@ -75,6 +86,33 @@ main {
 		font-size: 12px;
 		text-align: center;
 		text-transform: uppercase;
+		font-family: $fuente2;
+	}
+}
+.ubicacion--perfil {
+	width: 50%;
+	height: 90px;
+	margin: 30px auto 0 auto;
+	padding: 20px 0 0 50px;
+	border-radius: 20px;
+	background-color: $color-claro;
+	color: $color-primario;
+	i {
+		display: block;
+		float: left;
+		padding-right: 10px;
+		font-size: 40px;
+		color: $color-variacion;
+	}
+	h2 {
+		font-size: 20px;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-family: $fuente2;
+	}
+	h3 {
+		text-transform: uppercase;
+		font-size: 12px;
 		font-family: $fuente2;
 	}
 }
