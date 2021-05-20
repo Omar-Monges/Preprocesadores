@@ -68,8 +68,8 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 20px;
-  color: #333333;
   background-color: #ffffff;
+  color: #333333;
 }
 .estadistica--perfil h3 {
   font-weight: 600;
