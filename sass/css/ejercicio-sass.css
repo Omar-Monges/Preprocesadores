@@ -68,6 +68,8 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 20px;
+  -webkit-box-shadow: 0 30px 40px 0 #333333;
+          box-shadow: 0 30px 40px 0 #333333;
   background-color: #ffffff;
   color: #333333;
 }
@@ -91,6 +93,8 @@ main {
   margin: 30px auto 0 auto;
   padding: 20px 0 0 50px;
   border-radius: 20px;
+  -webkit-box-shadow: 0 30px 40px 0 #333333;
+          box-shadow: 0 30px 40px 0 #333333;
   background-color: #ffffff;
   color: #333333;
 }
