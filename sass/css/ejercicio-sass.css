@@ -28,7 +28,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .perfil {
@@ -72,7 +72,7 @@ main {
 }
 .perfil__minibio {
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .estadistica--perfil {
   display: -webkit-box;
@@ -82,9 +82,8 @@ main {
   height: 90px;
   padding-top: 15px;
   margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   border-radius: 20px;
   -webkit-box-shadow: 0 30px 40px 0 #333333;
           box-shadow: 0 30px 40px 0 #333333;
@@ -108,7 +107,7 @@ main {
 .ubicacion--perfil {
   width: 50%;
   height: 90px;
-  margin: 30px auto 0 auto;
+  margin: 30px auto;
   padding: 20px 0 0 50px;
   border-radius: 20px;
   -webkit-box-shadow: 0 30px 40px 0 #333333;
@@ -139,7 +138,7 @@ main {
 .galeria {
   width: 50%;
   height: 250px;
-  margin: 10px auto;
+  margin: 30px auto;
   padding: 20px 0 0 30px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -167,4 +166,30 @@ main {
 }
 .galeria img {
   border-radius: 10px;
+}
+
+.articulos {
+  width: 40%;
+  padding: 50px 0 0 50px;
+}
+
+.articulo {
+  margin-bottom: 75px;
+  border-bottom: 2px solid #8841da;
+}
+.articulo__categoria {
+  font-weight: 600;
+  font-size: 16px;
+  color: #8841da;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__titulo {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__descripcion {
+  margin-bottom: 30px;
+  padding-right: 100px;
 }
