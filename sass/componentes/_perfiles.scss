@@ -19,19 +19,22 @@
 		text-align: center;
 		font-weight: 700;
 		font-size: 12px;
+		color: get-opacity($color-claro, .5);
 	}
 	&__boton {
 		display: block;
 		width: 100px;
 		height: 40px;
 		margin: 15px auto;
-		padding-top: 15px;
+		padding-top: 5px;
 		border-radius: 20px;
 		text-decoration: none;
 		text-transform: uppercase;
 		text-align: center;
 		font-family: $fuente2;
 		color: $color-claro;
+		background-color: get-opacity($color-primario, .2);
+		border: 2px solid get-opacity($color-claro, .3);
 	}
 	&__minibio {
 		margin: 0 auto;
